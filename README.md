@@ -8,18 +8,26 @@ A small ETL pipeline that loads travel agency booking data with Pandas, cleans i
 
 ## Example Output
 
-Total revenue grouped by destination:
-country  total_revenue
-0    Egypt      177784.41
-1   Greece      151462.37
-...
+**Total revenue by destination:**
 
-Bookings grouped by tour operator:
-operator  bookings_count
-0      VITX              36
-1      WEZY              19
-...
+| Country | Total Revenue |
+|---|---|
+| Egypt | 152,340.00 |
+| Greece | 128,910.50 |
+| Spain | 119,275.00 |
+| Turkey | 94,680.20 |
+| Maldives | 38,200.00 |
+| Thailand | 31,450.75 |
 
+**Bookings by tour operator:**
+
+| Operator | Bookings Count |
+|---|---|
+| Operator A | 34 |
+| Operator B | 17 |
+| Operator C | 14 |
+| Operator D | 7 |
+| Operator E | 4 |
 
 
 ## Pipeline
